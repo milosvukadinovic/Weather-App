@@ -1,0 +1,36 @@
+
+.logo{
+    background-color: #ffffff;
+    border-radius: 30%;
+    vertical-align: middle;
+    box-shadow: 4px 4px grey;
+} 
+body{
+    background-image: url(..\pictures\background.jpg)
+}
+.navbar{
+    display: inline;
+    background:whitesmoke;
+    padding:20px;
+    border-radius: 10%;
+    box-shadow: 4px 4px grey;
+}
+.title{
+    display: inline-block
+    
+}
+
+.organ{
+    
+    background:whitesmoke;
+    padding:20px;
+    border-radius: 10%;
+    box-shadow: 4px 4px grey;
+    width: 60%;
+    margin:auto;
+    text-align: center;
+}
+
+.form-check{
+    display:inline;
+}
