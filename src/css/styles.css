@@ -6,18 +6,27 @@
     box-shadow: 4px 4px grey;
 } 
 body{
-    background-image: url(..\pictures\background.jpg)
+    background-image: url(..\pictures\background.jpg);
+    font-size:20px;
+    font-family: Monospace;
 }
-.navbar{
+.navbarZ{
     display: inline;
     background:whitesmoke;
     padding:20px;
     border-radius: 10%;
     box-shadow: 4px 4px grey;
+    font-size: 17px;
 }
 .title{
     display: inline-block
     
+}
+
+#inputCity{
+    width: 200px;
+    height: 30px;
+    font-size: 17px;
 }
 
 .organ{
@@ -31,6 +40,21 @@ body{
     text-align: center;
 }
 
-.form-check{
+.radiob{
     display:inline;
+}
+.show{
+    visibility: hidden;
+    background:whitesmoke;
+    padding:20px;
+    border-radius: 10%;
+    box-shadow: 4px 4px grey;
+    width: 60%;
+    margin:auto;
+    text-align: center;
+    margin-top:7px;
+}
+
+.result{
+    padding-right:5px;
 }
