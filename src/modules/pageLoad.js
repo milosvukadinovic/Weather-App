@@ -24,7 +24,7 @@ const pageLoad = () => {
     document.getElementById("showName").innerHTML = data.name;
     let type= document.querySelector('input[name="exampleRadios"]:checked').value;
     document.getElementById("showType").innerHTML = type;
-    if(type=='Celsius'){
+    if(type=='Celsius: '){
         document.getElementById("showTemp").innerHTML = (data.main.temp-273.15).toFixed(2);
     }else{
         document.getElementById("showTemp").innerHTML =  ((data.main.temp - 273.15) * 9/5 + 32).toFixed(2);
