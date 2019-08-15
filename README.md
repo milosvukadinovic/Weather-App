@@ -1,2 +1,6 @@
-# Weather-App
-Javascript weather application
+# Weather Application
+
+#### Simple weather application built with javascript.
+
+
+### Author: @milosvukadinovic
