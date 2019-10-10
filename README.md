@@ -1,6 +1,8 @@
 # Weather Application
 Simple weather application built with javascript.
 
+![Alt text](/src/css/ss.jpg)
+
 ## Requirements
 
 - Node.js
