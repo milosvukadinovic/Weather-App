@@ -4,6 +4,7 @@
   "description": "Javascript weather application",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest",
     "build": "webpack",
     "serve": "webpack --watch"
